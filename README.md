@@ -10,10 +10,8 @@ SO THAT I can reliably retrieve them for later use
 ```
 
 ## Deployment
+https://yasirjamah123.github.io/19-text-editor/
 
 
-
-
-## Screenshots
 
  
