@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    margin: 0;
+    font-family: monospace;
+    min-height: 100vh;
+}
+
+.terminal {
+    padding: 0 10px;
+    min-height: calc(100vh - 80px);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: white;
+    margin-bottom: 20px;
+    align-items: center;
+    color: dodgerblue;
+    text-align: center;
+    font-size: 26px;
+}
+
+header img {
+    height: 60px;
+    width: auto;
+}
+
+#output {
+    background-color: black;
+    color: white;
+    font-family: monospace;
+}
+
+button#installButton {
+    cursor: pointer;
+    padding: 10px 20px;
+    border: 1px solid dodgerblue;
+    border-radius: 4px;
+    background-color: dodgerblue;
+    color: #FFF;
+    font-weight: 700;
+}
+
+.line {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    white-space: pre;
+}
+
+.line-content {
+    color: green;
+}
+
+#textarea {
+    background: transparent;
+    border: none;
+    color: white;
+    font-family: monospace;
+    width: 100%;
+    outline: none;
+}
+
+
+.line-no {
+    color: gray !important;
+    font-weight: bold !important;
+    width: 20px;
+}

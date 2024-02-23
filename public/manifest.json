@@ -1,0 +1,16 @@
+{
+    "name": "Text Editor",
+    "short_name": "Editor",
+    "description": "A simple text editor web application",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#000000",
+    "theme_color": "#FFFFFF",
+    "icons": [
+        {
+            "src": "/img/icon.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        }
+    ]
+}
